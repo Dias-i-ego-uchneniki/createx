@@ -114,5 +114,68 @@ body{
     font-weight: 900;
     font-size: 32px;
  }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 60px 20px ;
+    background-color: white;
+    max-width: 1230px;
+}
+.createx-text{
+    max-width: 600px;
+    padding: 20px;
+}
+.createx-text h4 {
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.createx-text h2{
+    font-size: 32px;
+    margin: 10px 0;
+}
+.features{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+   
+}
+.features li{
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+     margin-top: 4px;
+     align-items: start;
+     display: flex;
+    
+}
+.features img{
+    margin-right: 10px;
+    
+}
 
+.btn{
+    background-color: #e6520e;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: 0.3s ;
+}
+.btn:hover{
+    background-color: #cc472c;
+}
+.image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px; }
 
