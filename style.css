@@ -1,10 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 body{
     background-image: url(./images/background.jpg);
 }
 
-/* тут у меня header*/
+/* header */
 .header{
      margin-top: 22px;
      margin-left: 300px;
@@ -57,7 +56,7 @@ body{
     gap: 5px;
 }
 
-/*тут я делаю уелком*/
+/*welcome*/
 
 .welcome{
     font-family: "Lato", sans-serif;
@@ -178,4 +177,85 @@ body{
     align-items: center;
     justify-content: space-between;
     gap: 40px; }
+
+.Latest-posts{
+    max-width: 1230px;
+    font-family: "Lato", sans-serif;
+    margin-left: 180px;
+    margin-top: 75px;
+}
+
+.Latest-posts__header h1{
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+letter-spacing: 0%;
+margin-top: 0px;
+color: #1E212C;
+margin: 0%;
+
+}
+
+.Latest-posts__header h6{
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-bottom: 10px;
+color: #1E212C;
+margin: 0%;
+
+}
+
+.Latest-posts__cards{
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+
+.Latest-posts__card-img{
+    width: 390px;
+    height: 300px;    
+    border-radius: 5px;
+}
+
+.Latest-posts__meta{
+    color:#787A80;
+    font-size: 14px;
+}
+
+.Latest-posts__header-btn{
+    color: white;
+background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+width: 158px;
+height: 52px;
+border: none;
+border-radius: 5px;
+position: absolute;
+right: 182px;
+top: 95px;
+
+}
+
+.Latest-posts__card-text-1{
+    color: #1E212C;
+font-weight: 700;
+font-size: 20px;
+}
+
+.Latest-posts__card-text-2{
+font-weight: 200;
+font-size: 16px;
+color: #424551;
+}
+.Latest-posts__card-badge{
+    background-color: white;
+    border-radius: 5px;
+    max-width: fit-content;
+}
+.Latest-posts__card-btn{
+    border: none;
+    background: none;
+}
 
