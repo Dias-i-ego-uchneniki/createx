@@ -1,32 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-body{
-    background-image: url(./images/background.jpg);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Ayaulym header*/
+
+/* nav */
+
+.header{
+      font-family: "Lato", sans-serif;
+      background-image: url(./images/background.jpg);  
+      background-repeat: no-repeat;
 }
 
-/* header */
-.header{
-     margin-top: 22px;
-     margin-left: 300px;
-     margin-bottom: 100px;
-
-     font-family: "Lato", sans-serif;
+.header-container{
+  max-width: 1920px;
+  padding: 20px;
+  margin: 0;
 }
 
 .header__nav{
     display: flex;
     align-items: center;
-    gap: 50px;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 100px;
 }
 
 .header__nav-list{
-    margin-right: 100px;
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
 .header__nav-list li{
-    text-decoration: none;
     list-style: none;
 }
 
@@ -38,12 +46,11 @@ body{
 .header__nav-button{
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 
-/*vot tut btn on po vsemu saitu vstreachaetsya vrode*/
-.btn{
-    padding: 20px 40px 20px 40px;
-    margin-right: 20px;
+.header__button{
+    padding: 20px 40px;
     background: linear-gradient(90deg,rgba(255, 63, 58, 1) 35%, rgba(247, 94, 5, 1) 100%);
     border: none;
     border-radius: 4px;
@@ -59,12 +66,14 @@ body{
 /*welcome*/
 
 .welcome{
-    font-family: "Lato", sans-serif;
-    margin-left: 280px;
     display: flex;
     align-items: center;
-    gap: 150px;
+    justify-content: center;
+
+    gap: 200px; 
     margin-bottom: 120px;
+
+    font-family: "Lato", sans-serif;
 }
 
 .welcome__title-play{
@@ -82,11 +91,12 @@ body{
 
  .welcome__title-text{
     margin-bottom: 80px;
-    font-size: 32px;
+    font-size: 55px;
+    font-weight: bold;
  }
 
  .btn-ghost{
-    padding: 20px 40px 20px 40px;
+    padding: 20px 40px;
     margin-right: 20px;
     background: transparent;
     border: 1px solid #F75E05;
@@ -97,10 +107,9 @@ body{
  /*eto te zyfri*/
 
  .why-us__list{
-    margin-left: 300px;
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 150px;
     
  }
 
@@ -113,6 +122,9 @@ body{
     font-weight: 900;
     font-size: 32px;
  }
+
+ /*nargizz*/
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -120,7 +132,6 @@ body{
     justify-content: center;
     margin: 0 auto;
     padding: 60px 20px ;
-    background-color: white;
     max-width: 1230px;
 }
 .createx-text{
@@ -262,7 +273,6 @@ color: #424551;
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 40px;
   background-color: white;
 }
 
